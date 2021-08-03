@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="nav-container">
+        <header>
+            <a href="index.html" class="logo">Brian Dukes</a>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">My Work</a></li>
+                        <li><a href="#">My Skills</a></li>
+                        <li><a href="#">Hire me!</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <div class="social-header">
+            <ul>
+                <li><a href="#"><img src="Group 1.svg" alt="menu"></a></li>
+                <li><a href="#"><img src="Icon awesome-linkedin.svg" alt="LinkedIn"></a></li>
+                <li><a href="#"><img src="Icon awesome-twitter.svg" alt="twitter"></a></li>
+                
+            </ul>
+        </div>
+            
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="content">
+            <h1 Class="stagger1">Clean Web Experiences</h1>
+            
+            <svg class="hero-design2" width="41" height="118" viewBox="0 0 41 118">
+                <g id="Group_3" data-name="Group 3" transform="translate(-285 -709)">
+                  <g id="Rectangle_14" data-name="Rectangle 14" transform="translate(285 709)" fill="none" stroke="#fff" stroke-width="6">
+                    <rect width="41" height="118" rx="20.5" stroke="none"/>
+                    <rect x="3" y="3" width="35" height="112" rx="17.5" fill="none"/>
+                  </g>
+                  <g class="circle" id="Ellipse_3" data-name="Ellipse 3" transform="translate(293 727)" fill="#fff" stroke="#707070" stroke-width="1">
+                    <ellipse cx="12.5" cy="13" rx="12.5" ry="13" stroke="none"/>
+                    <ellipse cx="12.5" cy="13" rx="12" ry="12.5" fill="none"/>
+                  </g>
+                </g>
+              </svg>
+        
+          </svg>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" class="hero-design" width="410" height="623" viewBox="0 0 410 623">
+            <g id="Group_2" data-name="Group 2" transform="translate(-1300 -372)">
+              <g id="Rectangle_24" data-name="Rectangle 24" transform="translate(1300 745)" fill="#fff" stroke="#707070" stroke-width="1">
+                <rect width="250" height="250" stroke="none"/>
+                <rect x="0.5" y="0.5" width="249" height="249" fill="none"/>
+              </g>
+              <g class= "square-anim" id="Rectangle_25" data-name="Rectangle 25" transform="translate(1425 372)" fill="#254349" stroke="#707070" stroke-width="1">
+                <rect width="250" height="250" stroke="none"/>
+                <rect x="0.5" y="0.5" width="249" height="249" fill="none"/>
+              </g>
+              <g class = "square-anim" id="Ellipse_5" data-name="Ellipse 5" transform="translate(1476 593)" fill="#9e9e9e" stroke="#707070" stroke-width="1">
+                <circle cx="117" cy="117" r="117" stroke="none"/>
+                <circle cx="117" cy="117" r="116.5" fill="none"/>
+              </g>
+              
+              
+            </g>
+              
+          </svg>
+          
+    </div>
+
+        <section class="featured">
+                <div class="left">
+                    <div class="inner transition2">
+                        <p class="subtitle">Featured project</p>
+                        <a href="#" class="featured-title">Tutor App prototype</a>
+
+                        <p class="featured-desc">Prototype social tutor app, designed by me in Adobe XD</p>
+                    </div>
+                </div>
+                <img class="right-transition2"src="Tutor App Prototype.JPG" alt="Featured Project">
+        </section>
+
+        <section class="skills">
+            <div class="skills-container">
+                <ul>
+                    <li class="transition2">
+                        <div class="icon-container1">
+                            <img src="Icon material-developer-mode.svg" alt="Front-End Development Icon">
+                        </div>
+                        <p class="skills-title">Front-End Development</p>
+                        <p class="featured-desc skill desc">Responsive and clean designs</p>
+                    </li>
+                    <li class="transition2">
+                        <div class="icon-container2">
+                            <img src="Icon awesome-location-arrow.svg" alt="Front-End Development Icon">
+                        </div>
+                        <p class="skills-title">UI/UX Designs</p>
+                        <p class="featured-desc skill desc">Creative and user-focused</p>
+                    </li>
+                </ul>
+                
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="portfolio-container transition3">
+                <div class="portfolio-left">
+                    <div class="inner">
+                        <p class="featured-title">Property Finder App Splash Screen Prototype</p>
+
+                        <p class="subtitle">Designed in Adobe XD, helps customers find the perfect home</p>
+                    </div>
+                </div>
+                <a href="#"><img src="Property Finder Prototype.png" alt="Property Finder App"></a>
+            </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js" integrity="sha512-DlTk2PLUinhBupE89kHOJTt11QqbRMQVlbb26XVDvp4D1kt0fRvQJslvZnTelRJHq6yK0tIPCR7cul8+9Blz0g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            gsap.registerPlugin(ScrollTrigger);
+            var t1 = gsap.timeline();
+
+            t1.from('.hero', {
+                y: '-30%',
+                opacity: 0,
+                duration: 2,
+                ease: easePower4.easeOut,
+            })
+            t1.from('stagger1', {
+                opacity: 0,
+                y: -50,
+                stagger: .3,
+                ease: easePower4.easeOut,
+                duration: 3
+            }, "-=1.5")
+            t1.from('.hero-design', {
+                opacity: 0, 
+                y: 50, 
+                ease: power4.easeOut, 
+                duration: 3
+            })
+            gsap.from('.square-anim', {
+                stagger: .2, 
+                scale: 0.1, 
+                duration: 1,
+                ease: Back.easeOut.config(1.7)
+            })
+            gsap.from('.inner-transition2', {
+                ScrollTrigger: {
+                    transition: '.inner-transition2',
+                    start: "top bottom"
+                },
+                y: 50,
+                opacity: 0,
+                duration: 1.2,
+                stagger: .3
+            })
+
+            
+        </script>
+        
+</body>
+</html>
